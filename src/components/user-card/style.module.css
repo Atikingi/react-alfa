@@ -1,0 +1,70 @@
+@import '@alfalab/core-components/vars/colors-indigo.css';
+@import '@alfalab/core-components/vars/gaps.css';
+@import '@alfalab/core-components/vars/shadows-indigo.css';
+@import '@alfalab/core-components/vars/border-radius.css';
+
+.card {
+  position: relative;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: var(--color-light-bg-secondary-inverted);
+  border: 2px solid var(--color-light-border-secondary-inverted);
+  border-radius: var(--border-radius-m);
+  margin-bottom: var(--gap-l);
+  box-shadow: var(--shadow-xl-hard);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  color: var(--color-light-bg-opaque);
+}
+
+.icon:hover {
+  color: var(--color-light-bg-primary);
+  cursor: pointer;
+}
+
+.star {
+  position: absolute;
+  right: 15px;
+  color: var(--color-light-border-secondary-inverted);
+}
+
+.star:hover {
+  color: var(--color-light-graphic-negative);
+  cursor: pointer;
+}
+
+.star:active {
+  fill: var(--color-light-bg-accent);
+}
+
+.starActive {
+  position: absolute;
+  right: 15px;
+  color: var(--color-light-bg-accent);
+  cursor: pointer;
+}
+
+.deleteIcon {
+  position: absolute;
+  left: 15px;
+  color: var(--color-light-border-secondary-inverted);
+}
+
+.deleteIcon:hover {
+  color: var(--color-light-graphic-negative);
+  cursor: pointer;
+}
+
+.deleteIcon:active {
+  fill: var(--color-light-bg-accent);
+}

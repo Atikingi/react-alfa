@@ -1,0 +1,9 @@
+.tooltipContent {
+  width: auto;
+}
+
+.circle:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in;
+  transform: scale(1.1);
+}

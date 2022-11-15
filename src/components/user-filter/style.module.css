@@ -1,0 +1,25 @@
+@import '@alfalab/core-components/vars/gaps.css';
+
+.wrapper {
+  width: 100%;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--gap-xl);
+}
+
+@media (max-width: 1280px) {
+  .wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
