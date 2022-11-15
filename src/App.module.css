@@ -1,0 +1,23 @@
+@import '@alfalab/core-components/vars/colors-indigo.css';
+@import '@alfalab/core-components/vars/gaps.css';
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(
+    0deg,
+    rgba(239, 49, 36, 1) 4%,
+    rgba(255, 255, 255, 1) 96%
+  );
+}
+
+.line {
+  max-width: 600px;
+  min-width: 60%;
+  height: 4px;
+  background-color: var(--color-light-bg-secondary-inverted);
+  margin-bottom: var(--gap-xl);
+}
